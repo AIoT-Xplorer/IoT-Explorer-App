@@ -9,3 +9,6 @@ def main():
     Punctul de intrare al scriptului.
     """
     functie_test()
+
+if __name__ == "__main__":
+    main()
