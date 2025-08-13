@@ -13,5 +13,5 @@
 }
 {$MQTT_DOMAIN} {
   header { Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" }
-  reverse_proxy ws://mosquitto:9001
+  reverse_proxy http://mosquitto:9001
 }
