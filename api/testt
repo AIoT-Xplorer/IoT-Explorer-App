@@ -1,17 +1,14 @@
-def functie_test():
+def functie_test_test2():
     """
     Aceasta este o functie de test care nu face nimic.
     """
     pass
-def functie_sume():
-    pass
-  
+
 def main():
     """
     Punctul de intrare al scriptului.
     """
-    functie_test()
+    functie_test_test2()
 
 if __name__ == "__main__":
     main()
-
