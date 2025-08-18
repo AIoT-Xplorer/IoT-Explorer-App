@@ -2,7 +2,7 @@
     email {$ACME_EMAIL}
 }
 
-<<<<<<< HEAD
+
 {$DOMAIN} {
     encode zstd gzip
     header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
@@ -69,4 +69,3 @@
     # compresia nu ajută WS, o lăsăm deoparte aici
     reverse_proxy mosquitto:9001
 }
->>>>>>> 7c0329e (prima urcare din VPS)
